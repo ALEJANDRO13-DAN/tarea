@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Fondo celeste */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    width: 900px;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.circulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo.hijo {
+    width: 260px;
+    height: 260px;
+    background-color: orange;
+}
+
+.circulo.nieto {
+    width: 220px;
+    height: 220px;
+    background-color: yellow;
+}
+
+.circulo.bisnieto {
+    width: 180px;
+    height: 180px;
+    background-color: green;
+}
+
+.circulo.tataranieto {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+}
+
+.circulo.chozno {
+    width: 100px;
+    height: 100px;
+    background-color: indigo;
+}
+
+.circulo.trastataranieto {
+    width: 60px;
+    height: 60px;
+    background-color: violet;
+}
+
+.conjunto {
+    margin-bottom: 20px; /* Reduce el espacio entre los conjuntos de círculos */
+}
